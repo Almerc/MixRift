@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: MixRadio
-  productName: MixRift:Guess Me
+  productName: MixRift - GuessMe
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -107,7 +107,7 @@ PlayerSettings:
     - m_Icon: {fileID: 2800000, guid: 7e03203de838041bcbae8e94663b0e8c, type: 3}
       m_Size: 128
   m_BuildTargetBatching: []
-  webPlayerTemplate: APPLICATION:Default
+  webPlayerTemplate: APPLICATION:Black Background
   m_TemplateCustomTags: {}
   XboxTitleId: 
   XboxImageXexPath: 
