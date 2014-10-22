@@ -6,9 +6,9 @@ MixRadio music guessing game with Oculus Rift support
 Builds
 ======
 
-Non-Rift Web - http://almerc.github.io/MixRift/
+Web (Not Rift supported) - http://almerc.github.io/MixRift/
 
-OSx - coming soon
+OSX - coming soon
 
 Win - coming soon
 
