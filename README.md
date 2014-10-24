@@ -16,34 +16,54 @@ Hack Week Diary
 ===============
 
 Day 1:
-Installed zigfu, kinect sdk, oculus unity, kinect unity,openni mac.
+
+Installed zigfu, kinect sdk, oculus unity plugin, kinect unity plugin,openni mac.
+
 Built single room walls floor, textures. Set rift camera up.
+
 Made ball prefab.
+
 Look around in rift.
 
 Day 2:
+
 Setup kinect unity.
+
 Shooting balls.physics!
+
 Shooting balls with kinect. Push!
+
 Rift and kinect work together!
+
 Scoreboard. Gui canvas.
+
 Import album art.
 
 Day3:
-Scoring.
-Raycasting.
-Sounds!
-Trying to get tracks playing
-Orbiting script.
-Skybox.
+
+Score Manager.
+
+Raycasting throw script.
+
+Sounds! Loading radio script.
+
+Moon.Orbiting script.
+
+Skyboxes.
 
 
 Day 4:
+
 Mp3 encoding issue.
+
 2D and 3D sounds.
-Fisher yates shuffle.randomise.tracks and location.
+
+Implement Fisher yates shuffle.randomise.tracks and location.
+
 Texture load with www url and change.
+
 Triggered gui text.wave! Shoot!
+
 Persistent high score
 
 Dependencies
