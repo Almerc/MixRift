@@ -5,5 +5,5 @@
  	
  	yield www;
  	
- 	www.LoadImageIntoTexture(renderer.material.mainTexture);
+ 	www.LoadImageIntoTexture(GetComponent.<Renderer>().material.mainTexture);
  }

@@ -36,7 +36,7 @@ function Start (){
 
 function Update (){
 	if(hit == true){
-		renderer.material.mainTexture = Resources.Load("Textures/face");
+		GetComponent.<Renderer>().material.mainTexture = Resources.Load("Textures/face");
 		getDataFromMixRadio();		
 		hit = false;
 	}
@@ -60,13 +60,13 @@ function getDataFromMixRadio () {
  	
  	yield www;
  	
- 	wall.renderer.material.mainTexture = www.texture;
+ 	wall.GetComponent.<Renderer>().material.mainTexture = www.texture;
  }
  
  function playTrack (item){
  	var media : AudioClip =  Resources.Load("Music/"+item, AudioClip);
-	audio.clip = media;
- 	audio.Play();
+	GetComponent.<AudioSource>().clip = media;
+ 	GetComponent.<AudioSource>().Play();
  	
  }
  

@@ -32,7 +32,7 @@ function Update ()
 			}
 		}
 		
-		ball.rigidbody.AddForce(transform.forward * 2000);
+		ball.GetComponent.<Rigidbody>().AddForce(transform.forward * 2000);
 		
 		Destroy (ball, autoDestroy);
 	}	
@@ -59,7 +59,7 @@ function PushDetector_Push()
 			}
 		}
 		
-		ball.rigidbody.AddForce(transform.forward * 2000);
+		ball.GetComponent.<Rigidbody>().AddForce(transform.forward * 2000);
 		
 		Destroy (ball, autoDestroy);
     }
@@ -67,8 +67,8 @@ function PushDetector_Push()
 function Score ()
 {
 	yield WaitForSeconds (1);
-	audio.clip = winSound;
-	audio.Play();
+	GetComponent.<AudioSource>().clip = winSound;
+	GetComponent.<AudioSource>().Play();
 	ScoreManager.score += hitValue;
 	LoadRadio.hit = true;
 	
@@ -77,8 +77,8 @@ function Score ()
 function GameOver ()
 {
 	yield WaitForSeconds (1);
-	audio.clip = failSound;
-	audio.Play();
+	GetComponent.<AudioSource>().clip = failSound;
+	GetComponent.<AudioSource>().Play();
 	updateHighScore();
 	ScoreManager.score = 0;
 	LoadRadio.hit = true;
